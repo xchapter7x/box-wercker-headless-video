@@ -5,10 +5,10 @@ type: service
 platform: ubuntu@12.04
 description: wercker box recording headless video
 keywords:
-  - video
-  - headless
-  - go
-  - avconv
+    - video
+    - headless
+    - go
+    - avconv
 packages:
   - headless-video@0.0.1
 script: |
