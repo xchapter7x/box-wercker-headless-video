@@ -15,7 +15,6 @@ name: headless-video-box
 description: Custom wercker box for abcsoftware
 version: 0.0.1
 platform: ubuntu@12.04
-inherits: wercker/golang
 type: main
 script: |
   sudo apt-get update
