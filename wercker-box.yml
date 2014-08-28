@@ -12,8 +12,9 @@
 #   ./box-provisioner-wercker.sh
 
 name: headless-video-box
-description: Custom wercker box for abcsoftware
+description: wercker box recording headless video
 version: 0.0.1
+inherits: wercker/golang@1.2.0
 platform: ubuntu@12.04
 type: main
 script: |
