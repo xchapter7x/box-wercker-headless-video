@@ -9,4 +9,4 @@ keywords:
     - go
     - avconv
 script: |
-  ./box-provisioner-wercker.sh
+    $WERCKER_SOURCE_DIR/box-provisioner-wercker.sh
