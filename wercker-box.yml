@@ -1,12 +1,12 @@
 name: headless-video-box
 description: wercker box recording headless video
-version: 0.0.6
+version: 0.0.7
 inherits: wercker/golang@1.2.0
 platform: ubuntu@12.04
 type: main
 script: |
   sudo apt-get update
-  sudo apt-get install -y libxext* libxfixes* xvfb x11-utils netpbm x11-apps netpbm libav-tools firefox terminator python-notify make bzr python-software-properties
+  sudo apt-get install -y libxext* libxfixes* xvfb x11-utils netpbm x11-apps netpbm libav-tools firefox terminator python-notify make bzr python-software-properties libavcodec-extra-53
   sudo apt-add-repository -y ppa:chris-lea/node.js
   sudo apt-get update
   sudo apt-get install -y nodejs
